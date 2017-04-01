@@ -30,7 +30,8 @@ of lookup time. Surely Robin Hood time of insert and lookup is smaller than the 
 
 ![Elapsed time distribution](./image/elapsed_time_ms_distribution.png)
 
-
+We can see low elapsed time even in high load factor case. The most efficient and stable case of 
+Robin Hood hashing looks around 0.5~0.6 load factor. 
 ![Elapsed time distribution](./image/elapsed_time_vs_load_factor.png)
 
 # Reference
