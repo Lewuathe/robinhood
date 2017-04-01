@@ -20,6 +20,7 @@ The load result is stored in `data/load_test.csv` which keeps
 - Average value of DIB (Distance to Initial Bucket)
 - Elapsed time in milliseconds
 
+![Elapsed time distribution](./image/elapsed_time_ms_distribution.png)
 
 
 # Reference
