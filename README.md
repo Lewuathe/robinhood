@@ -39,3 +39,7 @@ Robin Hood hashing looks around 0.5~0.6 load factor.
 - [I Wrote The Fastest Hashtable](https://probablydance.com/2017/02/26/i-wrote-the-fastest-hashtable/)
 - [Open Addressing](https://en.wikipedia.org/wiki/Open_addressing)
 - [Robin Hood Hashing should be your default Hash Table implementation](https://www.sebastiansylvan.com/post/robin-hood-hashing-should-be-your-default-hash-table-implementation/)
+
+# License
+
+[MIT License](https://opensource.org/licenses/MIT)
