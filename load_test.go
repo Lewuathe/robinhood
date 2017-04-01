@@ -36,7 +36,7 @@ func TestLoadTest(t *testing.T) {
 		"dib_average",
 		"elapsed_time_ms",
 	})
-	for _, l := range loads{
+	for _, l := range loads {
 		loadTest(t, int(SIZE*l), writer)
 	}
 	writer.Flush()
