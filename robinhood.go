@@ -31,13 +31,14 @@ func (m *RobinHood) Put(k string, v interface{}) {
 			return
 		} else {
 			if m.values[c].dib < e.dib {
-				// To be swapped
+				// To be swapped because it is rich.
 				tmp := e
 				e = Entry{
 					key:   m.values[c].key,
 					value: m.values[c].value,
 					dib:   m.values[c].dib,
 				}
+				// Current target is inserted here instead
 				m.values[c] = Entry{
 					key:   tmp.key,
 					value: tmp.value,
@@ -46,6 +47,7 @@ func (m *RobinHood) Put(k string, v interface{}) {
 
 			}
 		}
+		// The entry to be inserted goes away from ideal position gradually.
 		e.dib += 1
 	}
 }
